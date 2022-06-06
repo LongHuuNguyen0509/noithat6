@@ -286,12 +286,20 @@ p.pcart__post--horizontal {
   text-align: initial;
 }
 
+/* .row.card__post--horizontal {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  overflow: hidden;
+  text-align: left;
+  font-family: arial;
+  margin: 20px;
+} */
 .row.card__post--horizontal {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   font-family: arial;
-  margin: 20px;
+  margin: 10px;
+  padding: 15px;
 }
 
 img.col-4 {
@@ -329,3 +337,40 @@ a.togglesearch {
 }
 
 
+.card__viewdetail--margin {
+  box-shadow: 0 0px 8px 0 rgb(0 0 0 / 25%);
+  text-align: center;
+  font-family: arial;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+
+p.title_viewdetail {
+  text-align: center;
+  background-color: #D8D8D8;
+  padding: 15px;
+}
+p.cost_viewdetail {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+button.btn_viewdetail:hover {
+  background-color: #666666;
+}
+
+button.btn_viewdetail {
+  background-color: #454545;
+  border-radius: 4px;
+  color: white;
+
+}
+
+button.btn_viewdetail {
+  padding: 10px 30px;
+}
+
+h2:hover {
+  color: #FF6E27;
+}
