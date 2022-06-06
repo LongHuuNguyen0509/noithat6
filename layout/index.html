@@ -21,12 +21,18 @@
    </head>
    <body>
       <div class="header">
-         <div class="nav__overlay"></div>
+         <input type="checkbox" class="nav__input" id="check_overlay" hidden>
+               <!-- nút show menu kích thước 2x  -->
+               <label for="check_overlay" class="nav__overlay">
+               </label>
+               <!-- Nhấp vào khoảng overlay để tắt check box -->
+         <!-- <div class="nav__overlay"></div> -->
+
          <div class="nav__mobile d-flex flex-column justify-content-center">
             <a class=" d-flex justify-content-center">
                <div class="12345">
-                  <input type="text" placeholder="" />
-                  <input style="background-color: hsl(237, 100%, 50%);" class="fa fa-search " type="button" value="Search" />
+                  <!-- <input type="text" placeholder="" /> -->
+                  <input style="background-color: hsl(237, 100%, 50%);" class="fa fa-search " type="button"  />
                </div>
             </a>
             <a href="#home">Trang chủ</a>
@@ -52,14 +58,14 @@
                <a href="#home">Liên hệ</a>
                <a class="search__header--hover">
                   <div class="123">
-                     <input  class="fa fa-search" type="button"
+                     <input  class="fa fa-search fa-lg" type="button"
                         />
                   </div>
                </a>
                <!--  -->
                <a class="togglesearch">
                <input type="text" placeholder="" />
-               <input style="background-color: hwb(165 0% 0%);" class="fa fa-search " type="button"
+               <input style="background-color: hwb(27 2% 0%);" class="fa fa-search fa-lg" type="button"
                   />
                </i>
                </a>
@@ -74,15 +80,14 @@
                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
                   </a> -->
-               <input type="checkbox" class="nav__input" id="check_overlay" hidden>
                <label for="check_overlay" class="icon">
-               <i class="fa fa-bars "></i>
+               <i class="fa fa-bars fa-2x"></i>
                </label>
-               <label for="check_overlay" class="nav__overlay">
-               </label>
+
             </div>
          </div>
       </div>
+<!-- Header  -->
       <div class="container-fluid">
          <div class="slider__header--bottom">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -164,49 +169,55 @@
             </div>
          </div>
          <div class=" row cart__post ">
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                <div class=" card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/10.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/2.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/3.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/6.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/7.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
-                  <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/8.jpg" alt="Denim Jeans" style="width:100%">
+                  <div class="img-fluid">
+                     <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/8.jpg" alt="Denim Jeans" style="width:100%">
+
+                  </div>
                   <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
-                  <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/trang-tri-nha-cho-nguoi-tuoi-ty-14.jpg" alt="Denim Jeans" style="width:100%">
+                  <div class="img-fluid ">
+                     <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/trang-tri-nha-cho-nguoi-tuoi-ty-14.jpg" alt="Denim Jeans" style="width:100%">
+
+                  </div>
                   <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/biet thu/7.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
@@ -225,103 +236,52 @@
             </div>
          </div>
          <div class=" row cart__post ">
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-12">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12  ">
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11113.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/12.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/14.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-12">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/15.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/16.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/17.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
                </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-12  ">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12  ">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/9.jpg" alt="Denim Jeans" style="width:100%">
                   <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
-               </div>
-            </div>
-         </div>
-         <div class=" container-fluid row__body--divide">
-            <div class="row">
-               <div class="col-md-4 row__bodyleft--divide">
-                  <i class="fas fa-star" ></i>
-                  <span>THIẾT KẾ NHÀ PHỐ</span>
-               </div>
-               <div class="col-md-8 d-flex justify-content-end row__bodyright--divide">
-                  <p>+ Xem tất cả ></p>
-               </div>
-            </div>
-         </div>
-         <div class=" row cart__post ">
-            <div class="col ">
-               <div class="row">
-                  <div class=" col-md-12 col-sm-12 col-12">
-                     <div class="card__post--margin">
-                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
-                        <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col">
-               <div class="row">
-                  <div class=" col-md-6 col-sm-6 col-12  ">
-                     <div class="card__post--margin">
-                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11113.jpg" alt="Denim Jeans" style="width:100%">
-                        <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 col-12  ">
-                     <div class="card__post--margin">
-                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/12.jpg" alt="Denim Jeans" style="width:100%">
-                        <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6 col-12  ">
-                     <div class="card__post--margin">
-                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/14.jpg" alt="Denim Jeans" style="width:100%">
-                        <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
-                     </div>
-                  </div>
-                  <div class=" col-md-6 col-sm-6 col-12">
-                     <div class="card__post--margin">
-                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/15.jpg" alt="Denim Jeans" style="width:100%">
-                        <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
-                     </div>
-                  </div>
                </div>
             </div>
          </div>
@@ -337,6 +297,46 @@
             </div>
          </div>
          <div class=" row cart__post ">
+            <div class="col-md-6 col-sm-12 ">
+               <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                     <div class="card__post--margin">
+                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
+                        <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+               <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-12  ">
+                     <div class="card__post--margin">
+                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11113.jpg" alt="Denim Jeans" style="width:100%">
+                        <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-12  ">
+                     <div class="card__post--margin">
+                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/12.jpg" alt="Denim Jeans" style="width:100%">
+                        <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-12  ">
+                     <div class="card__post--margin">
+                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/14.jpg" alt="Denim Jeans" style="width:100%">
+                        <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                     <div class="card__post--margin">
+                        <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/15.jpg" alt="Denim Jeans" style="width:100%">
+                        <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- <div class=" row cart__post ">
             <div class=" col-md-3 col-sm-6 col-12">
                <div class="card__post--margin">
                   <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
@@ -385,11 +385,11 @@
                   <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
                </div>
             </div>
-         </div>
+         </div> -->
          <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-sm-12">
                <div class=" container-fluid row__body--divide">
-                  <div class="row">
+                  <div class="row" >
                      <div class="col-md-4 row__bodyleft--divide">
                         <i class="fas fa-star" ></i>
                         <span>THI CÔNG TỦ BẾP</span>
@@ -400,49 +400,49 @@
                   </div>
                </div>
                <div class=" row cart__post ">
-                  <div class=" col-md-6 col-sm-6 col-12">
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
                      </div>
                   </div>
-                  <div class=" col-md-6 col-sm-6 col-12  ">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12  ">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/11113.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
                      </div>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-12  ">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12  ">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/12.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
                      </div>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-12  ">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12  ">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/14.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
                      </div>
                   </div>
-                  <div class=" col-md-6 col-sm-6 col-12">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/15.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Cam kết hoàn thành tiến độ chính xác, chất lượng đảm bảo thỏa thuận.</p>
                      </div>
                   </div>
-                  <div class=" col-md-6 col-sm-6 col-12  ">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12  ">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/16.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Chúng tôi hỗ trợ khách hàng tận nơi nội thành Hà Nội và Tp. HCM.</p>
                      </div>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-12  ">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12  ">
                      <div class="card__post--margin">
                         <img class="img__cartpost" src="/noithat6/vendor/image/nha pho/17.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Làm việc phải có hợp đồng để đôi bên hợp tác thành công và bảo đảm.</p>
                      </div>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-12  ">
+                  <div class="col-lg-6 col-md-12 col-sm-6 col-12  ">
                      <div class="card__post--margin">
                         <img  class="img__cartpost" src="/noithat6/vendor/image/nha pho/9.jpg" alt="Denim Jeans" style="width:100%">
                         <p class="pcart">Với hơn 15 năm kinh nghiệm đem lại giá trị vững bền cho khách hàng</p>
@@ -450,7 +450,7 @@
                   </div>
                </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-sm-12">
                <div class=" container-fluid row__body--divide">
                   <div class="row">
                      <div class="col-md-4 row__bodyleft--divide">
@@ -465,8 +465,8 @@
                
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/11.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                            <p >Thiết kế và thi công nội thất toàn gỗ cho căn nhà biệt thự của bạn. Sẽ tạo nên sự choáng ngợp và khẳng định được vị thế của gia đình. Sang trọng, chất lượng.</p>
                         </div>
@@ -474,8 +474,8 @@
                   </div>
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/11113.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/11113.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Thiết kế nội thất biệt thự tân cổ điển ở Vinhomes Riverside</h3>
                            <p >Hãy liên hệ với chúng tôi để được tư vấn thi công xây dựng và thiết kế nhà ở, thiết kế biệt thự tân cổ điển, thiêt kế lâu đài kiểu pháp, thiết kế và thi công nội thất, thiết kế khách sạn, thiết kế nhà hàng, thiết kế shop, cửa hàng, showroom </p>
                         </div>
@@ -483,8 +483,8 @@
                   </div>
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/12.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/12.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Nội thất lâu đài – Đẳng cấp với kiến trúc kiểu Pháp cổ điển</h3>
                            <p >Thiết kế nội thất lâu đài đẳng cấp bậc nhất, thể hiện được sự đẳng cấp, vị thế của gia chủ theo kiến trúc kiểu Pháp cổ điển, tân cổ điển đẹp, quy phái, nhã nhặn</p>
                         </div>
@@ -492,8 +492,8 @@
                   </div>
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/14.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/14.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                            <p >Hãy liên hệ với chúng tôi để được tư vấn thi công xây dựng và thiết kế nhà ở, thiết kế biệt thự tân cổ điển, thiêt kế lâu đài kiểu pháp, thiết kế và thi công nội thất, thiết kế khách sạn, thiết kế nhà hàng, thiết kế shop, cửa hàng, showroom </p>
                         </div>
@@ -501,8 +501,8 @@
                   </div>
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/15.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/15.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Thiết kế nội thất lâu đài kiến trúc Pháp cổ điển sang trọng</h3>
                            <p >Kiến trúc Pháp cổ điển xưa nay vẫn luôn giữ được cho mình những vị thế nhất định trong kiến trúc. Tự tạo cho mình những nét ấn tượng, tinh xảo trong từng chi tiết. Không chỉ vậy, khi nhắc đến nội thất Pháp cổ điển chúng ta càng bị thu hút hơn. </p>
                         </div>
@@ -510,8 +510,8 @@
                   </div>
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/16.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/16.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                            <p >Hãy liên hệ với chúng tôi để được tư vấn thi công xây dựng và thiết kế nhà ở, thiết kế biệt thự tân cổ điển, thiêt kế lâu đài kiểu pháp, thiết kế và thi công nội thất, thiết kế khách sạn, thiết kế nhà hàng, thiết kế shop, cửa hàng, showroom </p>
                         </div>
@@ -519,8 +519,8 @@
                   </div>
                   <div class="col-md-12 col-sm-12 col-12  ">
                      <div class=" row card__post--horizontal">
-                        <img class="col-4" src="/noithat6/vendor/image/nha pho/17.jpg" alt="Denim Jeans" style="width:100%">
-                        <div class="col-8">
+                        <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/nha pho/17.jpg" alt="Denim Jeans" style="width:100%">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
                            <h3>Thiết kế nội thất lâu đài kiến trúc Pháp cổ điển sang trọng</h3>
                            <p >Kiến trúc Pháp cổ điển xưa nay vẫn luôn giữ được cho mình những vị thế nhất định trong kiến trúc. Tự tạo cho mình những nét ấn tượng, tinh xảo trong từng chi tiết. Không chỉ vậy, khi nhắc đến nội thất Pháp cổ điển chúng ta càng bị thu hút hơn. </p>
                         </div>
@@ -539,7 +539,7 @@
 
 
          <div class=" row cart__post ">
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                <div class="card__viewdetail--margin">
                   <p class="title_viewdetail">
                      Gói thông dụng
@@ -565,8 +565,8 @@
                   </button>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12">
-               <div class="card__viewdetail--margin">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+               <div class="card__viewdetail--margin" style="box-shadow:0 2px 4px 0 #FF5400;">
                   <p class="title_viewdetail" style="background-color: #FF5400;">
                      Gói thông dụng
                   </p>
@@ -591,7 +591,7 @@
                   </button>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-12">
                <div class="card__viewdetail--margin">
                   <p class="title_viewdetail">
                      Gói thông dụng
@@ -617,7 +617,7 @@
                   </button>
                </div>
             </div>
-            <div class=" col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                <div class="card__viewdetail--margin">
                   <p class="title_viewdetail">
                      Gói thông dụng
@@ -645,37 +645,37 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-md-6 col-sm-6 col-12  ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  ">
                <div class=" row card__post--horizontal">
-                  <img class="col-4" src="/noithat6/vendor/image/kinhnghiemthucte.png" alt="Denim Jeans" style="width:100%">
-                  <div class="col-8">
+                  <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/kinhnghiemthucte.png" alt="Denim Jeans" style="width:100%">
+                  <div class="col-lg-7 col-md-12 col-sm-12">
                      <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                      <p >Thiết kế và thi công nội thất toàn gỗ cho căn nhà biệt thự của bạn. Sẽ tạo nên sự choáng ngợp và khẳng định được vị thế của gia đình. Sang trọng, chất lượng.</p>
                   </div>
                </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-12  ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  ">
                <div class=" row card__post--horizontal">
-                  <img class="col-4" src="/noithat6/vendor/image/hotrotannoi.png" alt="Denim Jeans" style="width:100%">
-                  <div class="col-8">
+                  <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/hotrotannoi.png" alt="Denim Jeans" style="width:100%">
+                  <div class="col-lg-7 col-md-12 col-sm-12">
                      <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                      <p >Thiết kế và thi công nội thất toàn gỗ cho căn nhà biệt thự của bạn. Sẽ tạo nên sự choáng ngợp và khẳng định được vị thế của gia đình. Sang trọng, chất lượng.</p>
                   </div>
                </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-12  ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  ">
                <div class=" row card__post--horizontal">
-                  <img class="col-4" src="/noithat6/vendor/image/hopdongrorang.png" alt="Denim Jeans" style="width:100%">
-                  <div class="col-8">
+                  <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/hopdongrorang.png" alt="Denim Jeans" style="width:100%">
+                  <div class="col-lg-7 col-md-12 col-sm-12">
                      <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                      <p >Thiết kế và thi công nội thất toàn gỗ cho căn nhà biệt thự của bạn. Sẽ tạo nên sự choáng ngợp và khẳng định được vị thế của gia đình. Sang trọng, chất lượng.</p>
                   </div>
                </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-12  ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  ">
                <div class=" row card__post--horizontal">
-                  <img class="col-4" src="/noithat6/vendor/image/camketvang.png" alt="Denim Jeans" style="width:100%">
-                  <div class="col-8">
+                  <img class="col-lg-5 col-md-12 col-sm-12" src="/noithat6/vendor/image/camketvang.png" alt="Denim Jeans" style="width:100%">
+                  <div class="col-lg-7 col-md-12 col-sm-12">
                      <h3>Thiết kế nội thất biệt thự liền kề trong khu độ thị ở Hà Nội</h3>
                      <p >Thiết kế và thi công nội thất toàn gỗ cho căn nhà biệt thự của bạn. Sẽ tạo nên sự choáng ngợp và khẳng định được vị thế của gia đình. Sang trọng, chất lượng.</p>
                   </div>
@@ -683,119 +683,120 @@
             </div>
          </div>
       </div>
+<!-- Footer  -->
 
 <footer class="footer__margin">
-<div class="row ">
-<div class="col" >
-<p>
-   Ment.vn.COM là blog cá nhân chia sẻ những kiến thức đồ họa và kinh nghiệm làm website Wordpress cho tất cả mọi người. Mình rất yêu thích Nghệ thuật Thánh và Đồ họa Công giáo. Rất mong được kết bạn với đông đảo anh em Designer gần xa.
-</p>
-<ul>
-   <li>
-      Hotline: 0937464945
-   </li>
-   <li>
-      Email: sacachi@gmail.com
-   </li>
-   <li>
-      Địa chỉ: Số 1 Đường số 6 khu An Cựu City - Phường An Đông - Thành phố Huế - Thừa Thiên - Huế
-   </li>
-   <li>
-      Website: site.ment.vn | site.ment.vn
-   </li>
-</ul>
-</div>
-<div class="col">
-<h2>
-   Hợp tác nội dung
-</h2>
-<p>
-   Ment.vn rất vinh dự được mời gọi các bạn Designer đóng góp những sản phẩm thiết kế hữu ích, để cùng chia sẻ rộng rãi tới mọi người!
-</p>
-<div class="row">
-<a  href=""><i class="fab fa-facebook fa-2x" style="color:rgba(0, 30, 255, 0.519);"></i></a>
-<a href=""><i class="fab fa-twitter fa-2x" style="color:rgb(11, 89, 167);"></i></a>
-<a href=""><i class="fas fa-envelope-square fa-2x" style="color:rgb(211, 78, 25);"></i></a>
-<a href=""><i class="fab fa-pinterest fa-2x" style="color:rgb(237, 105, 105);"></i></a>
-<a href=""><i class="fab fa-instagram-square fa-2x" style="color:rgb(171, 90, 32);"></i></a>
-</div>
-<img style="margin: 10px;" src="/noithat6/vendor/image/footer/Hostinger.jpg" alt="">
-<button style="width: 50%; background-color: #FF5400; border-radius: 10px; border: none; margin: 10px; color: white;">+ Xem địa chỉ của hàng</button>
-</div>
-<div class="col">
-<h2>Giao diện website bán chạy</h2>
-
-<ul style="list-style-type: none;">
-   <li>
-     <a class="baymaulink__footer" href="">+ gioithieucongty2. site.ment.vn</a> 
-   </li>
-   <li>
-      <a class="baymaulink__footer" href="">+ demo.site.ment.vn</a> 
-    </li>
-    <li>
-      <a class="baymaulink__footer" href="">+ gioithieucongty. site.ment.vn</a> 
-    </li>
-    <li>
-      <a class="baymaulink__footer" href="">+ shophoa. site.ment.vn</a> 
-    </li>
-    <li>
-      <a class="baymaulink__footer" href="">+ babyshop. site.ment.vn</a> 
-    </li>
-</ul>
-
-
-
-
-
-
-
-
-
-<h2>Tặng tôi 01 ly cà phê nhé!</h2>
-<ul style="list-style-type: none;">
-   <li>
-     <a class="baymaulink__footer" href="">Chủ tài khoản: Ment.vn</a> 
-   </li>
-   <li>
-      <a class="baymaulink__footer" href="">Vietcombank: 0691000374599 - CN Hà Tây</a> 
-    </li>
-    <li>
-      <a class="baymaulink__footer" href="">Agribank: 2000206180703 - CN Đà Nẵng</a> 
-    </li>
-    <li>
-      <a class="baymaulink__footer" href="">ACB: 221262879 - CN Hà Thành</a> 
-    </li>
-    <li>
-      <a class="baymaulink__footer" href="">Vietinbank: : 104867788579 - CN Nam Thăng Long</a> 
-    </li>
-</ul>
-</div>
-</div>
-
-<div class="row__footer--overight">
-   <div class="row" style="background-color: #272727;">
-      <div class="col-md-6 d-flex justify-content-center">
-         <p style="margin: 10px;">© Bản quyền thuộc về Ment.vn | Thiết kế và duy trì bởi site.ment.vn</p>
-      </div>
-      <div class="col-md-6 d-flex justify-content-center">
-         <p style="margin: 10px;"> <a class="baymaulink" href="">Chat với tôi</a> | Hotline: 0937464945</p>
-      </div>
-   </div>
-</div>
-</footer>
-
-      <!-- <script>
-         function myFunction() {
-             var x = document.getElementById("myTopnav");
-             if (x.className === "topnav") {
-                 x.className += " responsive";
-             } else {
-                 x.className = "topnav";
+    <div class="row ">
+    <div class="col" >
+    <p>
+       Ment.vn.COM là blog cá nhân chia sẻ những kiến thức đồ họa và kinh nghiệm làm website Wordpress cho tất cả mọi người. Mình rất yêu thích Nghệ thuật Thánh và Đồ họa Công giáo. Rất mong được kết bạn với đông đảo anh em Designer gần xa.
+    </p>
+    <ul>
+       <li>
+          Hotline: 0937464945
+       </li>
+       <li>
+          Email: sacachi@gmail.com
+       </li>
+       <li>
+          Địa chỉ: Số 1 Đường số 6 khu An Cựu City - Phường An Đông - Thành phố Huế - Thừa Thiên - Huế
+       </li>
+       <li>
+          Website: site.ment.vn | site.ment.vn
+       </li>
+    </ul>
+    </div>
+    <div class="col">
+    <h2>
+       Hợp tác nội dung
+    </h2>
+    <p>
+       Ment.vn rất vinh dự được mời gọi các bạn Designer đóng góp những sản phẩm thiết kế hữu ích, để cùng chia sẻ rộng rãi tới mọi người!
+    </p>
+    <div class="row">
+    <a  href=""><i class="fab fa-facebook fa-2x" style="color:rgba(0, 30, 255, 0.519);"></i></a>
+    <a href=""><i class="fab fa-twitter fa-2x" style="color:rgb(11, 89, 167);"></i></a>
+    <a href=""><i class="fas fa-envelope-square fa-2x" style="color:rgb(211, 78, 25);"></i></a>
+    <a href=""><i class="fab fa-pinterest fa-2x" style="color:rgb(237, 105, 105);"></i></a>
+    <a href=""><i class="fab fa-instagram-square fa-2x" style="color:rgb(171, 90, 32);"></i></a>
+    </div>
+    <img style="margin: 10px;" src="/noithat6/vendor/image/footer/Hostinger.jpg" alt="">
+    <button style="width: 50%; background-color: #FF5400; border-radius: 10px; border: none; margin: 10px; color: white;">+ Xem địa chỉ cửa hàng</button>
+    </div>
+    <div class="col">
+    <h2>Giao diện website bán chạy</h2>
+    
+    <ul style="list-style-type: none;">
+       <li>
+         <a class="baymaulink__footer" href="">+ gioithieucongty2. site.ment.vn</a> 
+       </li>
+       <li>
+          <a class="baymaulink__footer" href="">+ demo.site.ment.vn</a> 
+        </li>
+        <li>
+          <a class="baymaulink__footer" href="">+ gioithieucongty. site.ment.vn</a> 
+        </li>
+        <li>
+          <a class="baymaulink__footer" href="">+ shophoa. site.ment.vn</a> 
+        </li>
+        <li>
+          <a class="baymaulink__footer" href="">+ babyshop. site.ment.vn</a> 
+        </li>
+    </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <h2>Tặng tôi 01 ly cà phê nhé!</h2>
+    <ul style="list-style-type: none;">
+       <li>
+         <a class="baymaulink__footer" href="">Chủ tài khoản: Ment.vn</a> 
+       </li>
+       <li>
+          <a class="baymaulink__footer" href="">Vietcombank: 0691000374599 - CN Hà Tây</a> 
+        </li>
+        <li>
+          <a class="baymaulink__footer" href="">Agribank: 2000206180703 - CN Đà Nẵng</a> 
+        </li>
+        <li>
+          <a class="baymaulink__footer" href="">ACB: 221262879 - CN Hà Thành</a> 
+        </li>
+        <li>
+          <a class="baymaulink__footer" href="">Vietinbank: : 104867788579 - CN Nam Thăng Long</a> 
+        </li>
+    </ul>
+    </div>
+    </div>
+    
+    <div class="row__footer--overight">
+       <div class="row" style="background-color: #272727;">
+          <div class="col-md-6 d-flex justify-content-center">
+             <p style="margin: 10px;">© Bản quyền thuộc về Ment.vn | Thiết kế và duy trì bởi site.ment.vn</p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+             <p style="margin: 10px;"> <a class="baymaulink" href="">Chat với tôi</a> | Hotline: 0937464945</p>
+          </div>
+       </div>
+    </div>
+    </footer>
+    
+          <!-- <script>
+             function myFunction() {
+                 var x = document.getElementById("myTopnav");
+                 if (x.className === "topnav") {
+                     x.className += " responsive";
+                 } else {
+                     x.className = "topnav";
+                 }
              }
-         }
-         </script> -->
-
-
-
-   </body>
-</html>
+             </script> -->
+    
+    
+    
+       </body>
+    </html>
