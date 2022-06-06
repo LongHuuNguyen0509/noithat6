@@ -18,6 +18,10 @@ body {
     width: 100%;
   z-index: 1;
 }
+.togglesearch{
+  display:none;
+
+}
 
 .header a {
   color: white;
